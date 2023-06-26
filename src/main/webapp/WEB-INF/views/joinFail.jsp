@@ -1,4 +1,4 @@
-package com.company.home.controller;
+package com.gyojincompany.home.controller;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -8,10 +8,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.company.home.dao.Profiledao;
+import com.company.home.dao.ProfileDao;
 
 @Controller
-public class Homecontroller {
+public class HomeController {
 	
 	@Autowired//DI 자동 주입 
 	private SqlSession sqlSession;
@@ -39,7 +39,7 @@ public class Homecontroller {
 		String mname = request.getParameter("mname");
 		String memail = request.getParameter("memail");
 		
-		Profiledao dao = sqlSession.getMapper(Profiledao.class);
+		ProfileDao dao = sqlSession.getMapper(ProfileDao.class);
 		
 		int joinCheck = dao.memberJoinDao(mid, mpw, mname, memail);
 		//회원가입 성공하면 joincheck=1
