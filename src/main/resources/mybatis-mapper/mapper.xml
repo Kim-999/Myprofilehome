@@ -3,7 +3,7 @@
    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
    
-<mapper namespace="com.company.home.dao.profiledao">
+<mapper namespace="com.company.home.dao.Profiledao">
 	<insert id="memberJoinDao">
 		INSERT INTO pmember(mid, mpw, mname, memail) VALUES(#{param1},#{param2},#{param3},#{param4})
 	</insert>
