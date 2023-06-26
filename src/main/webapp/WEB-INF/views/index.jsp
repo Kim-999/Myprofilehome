@@ -11,7 +11,7 @@
 	<table width="75%" border="0" cellpedding="20" cellspacing="0">
 		<tr>
 			<td>
-				<span class="title01">Developer jiyoeon's profile</span>
+				<span class="title01">Developer jiyeon's profile</span>
 			</td>
 		</tr>
 		<tr>
