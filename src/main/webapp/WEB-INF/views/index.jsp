@@ -14,7 +14,7 @@
 	<table width="75%" border="0" cellpadding="20" cellspacing="0">
 		<tr align="center">
 			<td>
-				<span class="title01">DEVELOPER PROFILE</span>
+				<span class="title01">DEVELOPER's PROFILE</span>
 			</td>
 		</tr>
 		<tr align="center">
