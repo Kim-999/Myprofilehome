@@ -15,5 +15,11 @@ public class Homecontroller {
 	public String index() {
 		return "index";
 	}
+	
+	@RequestMapping(value = "/join")
+	public String join() {
+		return "join";
+	}
+
 
 }
